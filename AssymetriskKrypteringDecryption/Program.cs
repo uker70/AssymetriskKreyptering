@@ -16,15 +16,17 @@ namespace AssymetriskKrypteringDecryption
             //RSA.GenerateXmlKey(path);
 
             int runProgramChoice = 1;
-
+            //loop to run the program
             while (runProgramChoice == 1)
             {
                 byte[] text = null;
                 byte[] decryptedText = null;
-                string[] files = Directory.GetFiles(path, "*.txt");
 
+                //find txt files in the directory where the keys are
+                string[] files = Directory.GetFiles(path, "*.txt");
                 if (files.Length != 0)
                 {
+                    //writes the decrypter information
                     using (RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(2048))
                     {
                         rsa.PersistKeyInCsp = false;
@@ -39,12 +41,15 @@ namespace AssymetriskKrypteringDecryption
                                           $"Q: {BitConverter.ToString(rsa.ExportParameters(true).Q)}\n");
                     }
 
+                    //gets a txt file and decrypt it
                     text = File.ReadAllBytes(files[0]);
                     decryptedText = RSA.Decrypt(path + @"\PrivateKey", text);
 
+                    //writes the encrypted and decrypted text
                     Console.WriteLine("Encrypted Text:\n" + Convert.ToBase64String(text)+"\n");
                     Console.WriteLine("Decrypted Text:\n" + Encoding.UTF8.GetString(decryptedText)+"\n");
 
+                    //deletes the decrypted txt file
                     File.Delete(files[0]);
                 }
                 else
