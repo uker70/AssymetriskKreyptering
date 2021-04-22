@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssymetriskKrypteringEncrypt", "AssymetriskKrypteringEncrypt.csproj", "{7F9EDA63-4DBC-4BBB-A1AD-60931C780EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssymetriskKrypteringDecryption", "..\AssymetriskKrypteringDecryption\AssymetriskKrypteringDecryption.csproj", "{0D9FFCFC-22C6-4097-87BF-C3335FF85D38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F9EDA63-4DBC-4BBB-A1AD-60931C780EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9EDA63-4DBC-4BBB-A1AD-60931C780EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9EDA63-4DBC-4BBB-A1AD-60931C780EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9EDA63-4DBC-4BBB-A1AD-60931C780EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9FFCFC-22C6-4097-87BF-C3335FF85D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9FFCFC-22C6-4097-87BF-C3335FF85D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9FFCFC-22C6-4097-87BF-C3335FF85D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9FFCFC-22C6-4097-87BF-C3335FF85D38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {124BFD36-DFF7-4910-9D06-483BCD738387}
+	EndGlobalSection
+EndGlobal

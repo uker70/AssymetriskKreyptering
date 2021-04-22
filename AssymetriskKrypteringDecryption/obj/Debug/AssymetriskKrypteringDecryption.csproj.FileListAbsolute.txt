@@ -1,0 +1,6 @@
+C:\Users\benj4539\Desktop\programmering\programmering\Hovedforloeb\H4\Kryptering\AssymetriskKrypteringDecryption\bin\Debug\AssymetriskKrypteringDecryption.exe.config
+C:\Users\benj4539\Desktop\programmering\programmering\Hovedforloeb\H4\Kryptering\AssymetriskKrypteringDecryption\bin\Debug\AssymetriskKrypteringDecryption.exe
+C:\Users\benj4539\Desktop\programmering\programmering\Hovedforloeb\H4\Kryptering\AssymetriskKrypteringDecryption\bin\Debug\AssymetriskKrypteringDecryption.pdb
+C:\Users\benj4539\Desktop\programmering\programmering\Hovedforloeb\H4\Kryptering\AssymetriskKrypteringDecryption\obj\Debug\AssymetriskKrypteringDecryption.csproj.CoreCompileInputs.cache
+C:\Users\benj4539\Desktop\programmering\programmering\Hovedforloeb\H4\Kryptering\AssymetriskKrypteringDecryption\obj\Debug\AssymetriskKrypteringDecryption.exe
+C:\Users\benj4539\Desktop\programmering\programmering\Hovedforloeb\H4\Kryptering\AssymetriskKrypteringDecryption\obj\Debug\AssymetriskKrypteringDecryption.pdb
